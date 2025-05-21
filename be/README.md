@@ -3,10 +3,9 @@
  - [개발 환경 구성하는 방법](https://github.com/IMPACUS/whispr-docs/blob/master/be/dev-environment.md)
  - [그라운드 룰](https://github.com/IMPACUS/whispr-docs/blob/master/be/ground-rule.md)
  - 프로젝트 구성 가이드
-   - [Global Excetion Handler](https://github.com/IMPACUS/whispr-docs/blob/master/be/global-excetion-handler.md)
+   - [Global Excetion Handler](https://github.com/IMPACUS/whispr-docs/blob/master/be/project-configration-guide/global-excetion-handler.md)
    - [DB 암호화 복호화 컨버터 (AES256ToStringConverter)](https://github.com/IMPACUS/whispr-docs/blob/master/be/project-configration-guide/aes-converter-util.md)
-   - [Amazon S3 파일 업로드]
-   - [APIResponseEntity 공통 응답 포맷]
+   - [APIResponseEntity 공통 응답 포맷](https://github.com/IMPACUS/whispr-docs/blob/master/be/project-configration-guide/api-response-entity.md)
    - [Valid 함수]
 
 ## Backend Spec

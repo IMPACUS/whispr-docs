@@ -1,4 +1,4 @@
-### Global Excetion Handler 가이드
+## Global Excetion Handler 가이드
 
 `GeneralException` 클래스는 애플리케이션 전반에서 발생할 수 있는 예외를 처리하기 위해 설계된 커스텀 예외 클래스입니다. 이 클래스는 HTTP 상태 코드, 오류 코드, 상세 정보를 포함하여 예외를 보다 명확하게 표현할 수 있도록 도와줍니다.
 
