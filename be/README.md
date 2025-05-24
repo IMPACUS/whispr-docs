@@ -6,7 +6,7 @@
    - [Global Excetion Handler](https://github.com/IMPACUS/whispr-docs/blob/master/be/project-configration-guide/global-excetion-handler.md)
    - [DB 암호화 복호화 컨버터 (AES256ToStringConverter)](https://github.com/IMPACUS/whispr-docs/blob/master/be/project-configration-guide/aes-converter-util.md)
    - [APIResponseEntity 공통 응답 포맷](https://github.com/IMPACUS/whispr-docs/blob/master/be/project-configration-guide/api-response-entity.md)
-   - [Valid 함수]
+   - [dev 서버 배포 정보](https://github.com/IMPACUS/whispr-docs/blob/master/be/deploy-dev.md)
 
 ## Backend Spec
 

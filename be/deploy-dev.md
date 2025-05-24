@@ -4,7 +4,7 @@
 
 - EC2
   - host: ec2-43-202-168-134.ap-northeast-2.compute.amazonaws.com
-  - pem key:
+  - pem key: [pem key](https://github.com/IMPACUS/whispr-docs/blob/master/be/assets/ec2-dev-whispr.pem)
 - RDS
   - host: rds-dev-whispr.c6unqkaeefhz.ap-northeast-2.rds.amazonaws.com
   - user: root
