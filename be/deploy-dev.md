@@ -19,4 +19,4 @@
 | DOCKER_PASSWORD | a4n4g4e4l4                                              |
 | DOCKER_REPO     | lchy0413/impacus-dev                                    |
 | AWS_HOST        | ec2-43-202-168-134.ap-northeast-2.compute.amazonaws.com |
-| KEY             | ec2 pem key 내용                                        |
+| AWS_KEY         | ec2 pem key 내용                                        |

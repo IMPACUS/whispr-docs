@@ -21,3 +21,6 @@
 
 
 ![](assets/20250521_194937_whispr.png)
+
+## CICD 설정
+- develop 브랜치에 commit: develop 서버 재배포
