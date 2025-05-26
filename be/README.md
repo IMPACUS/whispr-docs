@@ -16,7 +16,7 @@
 - DB: MariaDB
 
 
-| 개발용 서버 | https://back-dev.whispr.krcol       |
+| 개발용 서버 | https://back-dev.whispr.kr     |
 | :---------- | ----------------------------------- |
 | API docs    | https://back-dev.whispr.kr/api-docs |
 
