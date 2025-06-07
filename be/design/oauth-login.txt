@@ -1,0 +1,28 @@
+@startuml
+participant 사용자 as User
+participant Frontend
+participant Backend
+participant SocialLoginProvider
+
+User -> Frontend: 사용자 소셜 로그인 시도
+
+Frontend -> Backend: 1. 소셜 로그인 요청 \n POST /api/v1/auth/oauth-login
+
+Backend -> SocialLoginProvider: 2. 토큰 & 사용자 정보 요청
+
+Backend -> Backend: 3. 존재하는 이메일인지 확인
+
+alt 일반 로그인이나 다른 소셜 로그인으로 저장되어 있는 경우
+    Backend --> Frontend: HTTP 400 006_EXISTED_ANOTHER_PROVIDER
+else if 존재하지 않는 이메일인 경우
+    Backend -> Backend: 3.2.1 회원가입 데이터 DB 저장\n(회원이 미인증 회원으로 저장됨)
+    Backend -> Backend: 3.2.2 JWT 토큰 발급
+    Backend --> Frontend: HTTP 200 JwT Access token / Refresh token 전달\n회원가입: hasSignedUp:true
+    Frontend -> Backend: 3.2.3 소셜 로그인 회원가입 추가 정보 저장 요청\n POST /api/v1/member/oauth-sign-up
+    Backend -> Backend: 3.2.4 사용자 추가 정보 저장. 인증 회원으로 변경
+    Backend --> Frontend: HTTP 201
+else
+    Backend -> Backend: 3.3.1 JWT 토큰 발급
+    Backend --> Frontend: HTTP 200 Jwt Access token / Refresh token 전달\n로그인: hasSignedUp:false
+end
+@enduml
