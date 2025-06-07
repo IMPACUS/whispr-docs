@@ -7,3 +7,9 @@
 
 ![](assets/oauth-login.png)
 </details>
+
+<details>
+<summary> - 비밀번호 재설정</summary>
+
+![](assets/reset-password.png)
+</details>
